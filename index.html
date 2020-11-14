@@ -1,219 +1,213 @@
 <head>
   <link rel="stylesheet" href="css/style.css" />
   <meta charset="utf-8" />
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1, shrink-to-fit=no"
-  />
-  <link
-    rel="stylesheet"
-    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-    crossorigin="anonymous"
-  />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
-    rel="stylesheet"
-  />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
 </head>
 
 <body>
-  <div class="container-fluid row justify-content-center">
-    <div class="outer-boxa col-md-10 px-0">
-      <!-- -------------------HEADER -->
-      <div class="header">
-        <div class="header__title">
-          <p>Social Media Dashboard</p>
+  <div class="container-fluid ">
+    <div class="outer-outer-box row justify-content-center">
+      <div class="outer-boxa col-md-10 px-0">
+        <!-- -------------------HEADER -->
+        <div class="header row ">
+          <div class="header__title col-11">
+            <p>Social Media Dashboard</p>
+          </div>
+          <div class="header__subtitle col-11">
+            <p>Total Followers: 23,004</p>
+          </div>
+          <hr />
+          <div class="lightness-button col-11">
+            <p>Dark Mode</p>
+            <div class="switch"></div>
+          </div>
         </div>
-        <div class="header__subtitle">
-          <p>Total Followers: 23,004</p>
-        </div>
-        <hr />
-        <div class="lightness-button">
-          <p>Dark Mode</p>
-          <div class="switch"></div>
-        </div>
-      </div>
-      <!-- -------------------FOLLOWERS -->
-      <div class="followers row justify-content-around">
-        <div class="outer-box col-md-6 col-lg-3">
-          <div class="followers__square followers__square--facebook">
-            <div class="followers__social-media">
-              <p>@nathanf</p>
+        <!-- -------------------FOLLOWERS -->
+        <div class="followers row justify-content-around">
+          <div class="outer-box col-11 col-md-6 col-lg-3">
+            <div class="followers__square followers__square--facebook">
+              <div class="followers__social-media">
+                <p>@nathanf</p>
+              </div>
+              <div class="followers__amount">
+                <p class="number">1987</p>
+                <p class="followers-word">FOLLOWERS</p>
+              </div>
+              <div class="followers__daily green">
+                <p>12 Today</p>
+              </div>
             </div>
-            <div class="followers__amount">
-              <p class="number">1987</p>
-              <p class="followers-word">FOLLOWERS</p>
+          </div>
+          <div class="outer-box col-11 col-md-6 col-lg-3">
+            <div class="followers__square followers__square--twitter">
+              <div class="followers__social-media">
+                <p>@nathanf</p>
+              </div>
+              <div class="followers__amount">
+                <p class="number">1044</p>
+                <p class="followers-word">FOLLOWERS</p>
+              </div>
+              <div class="followers__daily green">
+                <p>99 Today</p>
+              </div>
             </div>
-            <div class="followers__daily green">
-              <p>12 Today</p>
+          </div>
+          <div class="outer-box col-11 col-md-6 col-lg-3">
+            <div class="followers__square">
+              <div class="followers__square--instagram"></div>
+              <div class="followers__social-media">
+                <p>@realnathanf</p>
+              </div>
+              <div class="followers__amount">
+                <p class="number">11K</p>
+                <p class="followers-word">FOLLOWERS</p>
+              </div>
+              <div class="followers__daily green">
+                <p>1099 Today</p>
+              </div>
+            </div>
+          </div>
+          <div class="outer-box col-11 col-md-6 col-lg-3">
+            <div class="followers__square followers__square--youtube">
+              <div class="followers__social-media">
+                <p>Nathan F.</p>
+              </div>
+              <div class="followers__amount">
+                <p class="number">8239</p>
+                <p class="followers-word">SUBSCRIBERS</p>
+              </div>
+              <div class="followers__daily red">
+                <p>144 Today</p>
+              </div>
             </div>
           </div>
         </div>
-        <div class="outer-box col-md-6 col-lg-3">
-          <div class="followers__square followers__square--twitter">
-            <div class="followers__social-media">
-              <p>@nathanf</p>
-            </div>
-            <div class="followers__amount">
-              <p class="number">1044</p>
-              <p class="followers-word">FOLLOWERS</p>
-            </div>
-            <div class="followers__daily green">
-              <p>99 Today</p>
-            </div>
+        <!-- -------------------OVERVIEW -->
+        <div class="overview row">
+          <div class="overview__title col-12">
+            <p>Overview - Today</p>
           </div>
-        </div>
-        <div class="outer-box col-md-6 col-lg-3">
-          <div class="followers__square">
-            <div class="followers__square--instagram"></div>
-            <div class="followers__social-media">
-              <p>@realnathanf</p>
-            </div>
-            <div class="followers__amount">
-              <p class="number">11K</p>
-              <p class="followers-word">FOLLOWERS</p>
-            </div>
-            <div class="followers__daily green">
-              <p>1099 Today</p>
-            </div>
-          </div>
-        </div>
-        <div class="outer-box col-md-6 col-lg-3">
-          <div class="followers__square followers__square--youtube">
-            <div class="followers__social-media">
-              <p>Nathan F.</p>
-            </div>
-            <div class="followers__amount">
-              <p class="number">8239</p>
-              <p class="followers-word">SUBSCRIBERS</p>
-            </div>
-            <div class="followers__daily red">
-              <p>144 Today</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- -------------------OVERVIEW -->
-      <div class="overview row">
-        <div class="overview__title col-12">
-          <p>Overview - Today</p>
-        </div>
 
-        <div class="outer-box col-md-6 col-lg-3">
-          <div class="overview__square">
-            <div class="overview__name">
-              <p>Page Views</p>
-            </div>
-            <div class="overview__social-media"></div>
-            <div class="overview__amount">
-              <p>87</p>
-            </div>
-            <div class="overview__daily green">
-              <p>3%</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="outer-box col-md-6 col-lg-3">
-          <div class="overview__square">
-            <div class="overview__name">
-              <p>Likes</p>
-            </div>
-            <div class="overview__social-media"></div>
-            <div class="overview__amount">
-              <p>52</p>
-            </div>
-            <div class="overview__daily red">
-              <p>2%</p>
+          <div class="outer-box col-11 col-md-6 col-lg-3">
+            <div class="overview__square">
+              <div class="overview__name">
+                <p>Page Views</p>
+              </div>
+              <div class="overview__social-media"></div>
+              <div class="overview__amount">
+                <p>87</p>
+              </div>
+              <div class="overview__daily green">
+                <p>3%</p>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="outer-box col-md-6 col-lg-3">
-          <div class="overview__square">
-            <div class="overview__name">
-              <p>Likes</p>
-            </div>
-            <div class="overview__social-media"></div>
-            <div class="overview__amount">
-              <p>5462</p>
-            </div>
-            <div class="overview__daily green">
-              <p>2257%</p>
+          <div class="outer-box col-11 col-md-6 col-lg-3">
+            <div class="overview__square">
+              <div class="overview__name">
+                <p>Likes</p>
+              </div>
+              <div class="overview__social-media"></div>
+              <div class="overview__amount">
+                <p>52</p>
+              </div>
+              <div class="overview__daily red">
+                <p>2%</p>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="outer-box col-md-6 col-lg-3">
-          <div class="overview__square">
-            <div class="overview__name">
-              <p>Profile Views</p>
-            </div>
-            <div class="overview__social-media"></div>
-            <div class="overview__amount">
-              <p>52k</p>
-            </div>
-            <div class="overview__daily green">
-              <p>1375%</p>
+          <div class="outer-box col-11 col-md-6 col-lg-3">
+            <div class="overview__square">
+              <div class="overview__name">
+                <p>Likes</p>
+              </div>
+              <div class="overview__social-media"></div>
+              <div class="overview__amount">
+                <p>5462</p>
+              </div>
+              <div class="overview__daily green">
+                <p>2257%</p>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="outer-box col-md-6 col-lg-3">
-          <div class="overview__square">
-            <div class="overview__name">
-              <p>Retweets</p>
-            </div>
-            <div class="overview__social-media"></div>
-            <div class="overview__amount">
-              <p>117</p>
-            </div>
-            <div class="overview__daily green">
-              <p>303%</p>
+          <div class="outer-box col-11 col-md-6 col-lg-3">
+            <div class="overview__square">
+              <div class="overview__name">
+                <p>Profile Views</p>
+              </div>
+              <div class="overview__social-media"></div>
+              <div class="overview__amount">
+                <p>52k</p>
+              </div>
+              <div class="overview__daily green">
+                <p>1375%</p>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="outer-box col-md-6 col-lg-3">
-          <div class="overview__square">
-            <div class="overview__name">
-              <p>Likes</p>
-            </div>
-            <div class="overview__social-media"></div>
-            <div class="overview__amount">
-              <p>507</p>
-            </div>
-            <div class="overview__daily green"><p>553%</p></div>
-          </div>
-        </div>
-
-        <div class="outer-box col-md-6 col-lg-3">
-          <div class="overview__square">
-            <div class="overview__name">
-              <p>Likes</p>
-            </div>
-            <div class="overview__social-media"></div>
-            <div class="overview__amount">
-              <p>107</p>
-            </div>
-            <div class="overview__daily red">
-              <p>19%</p>
+          <div class="outer-box col-11 col-md-6 col-lg-3">
+            <div class="overview__square">
+              <div class="overview__name">
+                <p>Retweets</p>
+              </div>
+              <div class="overview__social-media"></div>
+              <div class="overview__amount">
+                <p>117</p>
+              </div>
+              <div class="overview__daily green">
+                <p>303%</p>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="outer-box col-md-6 col-lg-3">
-          <div class="overview__square">
-            <div class="overview__name">
-              <p>Total Views</p>
+          <div class="outer-box col-11 col-md-6 col-lg-3">
+            <div class="overview__square">
+              <div class="overview__name">
+                <p>Likes</p>
+              </div>
+              <div class="overview__social-media"></div>
+              <div class="overview__amount">
+                <p>507</p>
+              </div>
+              <div class="overview__daily green">
+                <p>553%</p>
+              </div>
             </div>
-            <div class="overview__social-media"></div>
-            <div class="overview__amount">
-              <p>1407</p>
+          </div>
+
+          <div class="outer-box col-11 col-md-6 col-lg-3">
+            <div class="overview__square">
+              <div class="overview__name">
+                <p>Likes</p>
+              </div>
+              <div class="overview__social-media"></div>
+              <div class="overview__amount">
+                <p>107</p>
+              </div>
+              <div class="overview__daily red">
+                <p>19%</p>
+              </div>
             </div>
-            <div class="overview__daily red">
-              <p>12%</p>
+          </div>
+
+          <div class="outer-box col-11 col-md-6 col-lg-3">
+            <div class="overview__square">
+              <div class="overview__name">
+                <p>Total Views</p>
+              </div>
+              <div class="overview__social-media"></div>
+              <div class="overview__amount">
+                <p>1407</p>
+              </div>
+              <div class="overview__daily red">
+                <p>12%</p>
+              </div>
             </div>
           </div>
         </div>
